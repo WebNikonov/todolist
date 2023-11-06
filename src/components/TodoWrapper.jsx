@@ -41,8 +41,8 @@ const TodoWrapper = () => {
 
 
   return (
-    <div >
-    <h1>У тебя всё получится!</h1>
+    <div className='content'>
+    <h1 className='todo-form__title'>У тебя всё получится!</h1>
       <TodoForm addTodo = {addTodo} />
       {todos.map((todo, index) => {
         return todo.isEdit ?

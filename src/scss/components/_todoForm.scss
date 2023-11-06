@@ -32,6 +32,27 @@
             background: #8758ff;
         }
     }
+
+    @media (max-width: 520px) {
+        width: min-content;
+
+        &__title {
+            margin-bottom: 20px;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__input {
+            width: auto;
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__title {
+            font-size: 27px;
+            margin-bottom: 40px;
+        }
+    }
 }
 
 .todo-form-edit {
@@ -73,6 +94,8 @@
     }
 
 } 
+
+
 
 
 
