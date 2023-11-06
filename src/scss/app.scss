@@ -1,0 +1,20 @@
+@import './libs/normalise';
+@import './components/all';
+
+.App {
+    text-align: center;
+  }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.todoWrapper {
+    display: flex;
+    background: linear-gradient(to bottom right, rgb(26, 41, 116), #c71585);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 8px;
+    border-radius: 10px;
+    height: 50px;
+    background: linear-gradient(to right bottom, #921e68, rgb(26, 41, 116, 1));
+
+    p {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    &__list-item {
+        transition: all 1s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40px;
+        height: 100%;
+    }
+
+    &__completed {
+        
+        text-decoration:line-through;
+        color: bisque;
+    }
+
+    &__icon {
+        cursor: pointer;
+
+        path:hover {
+            fill: #921e68;
+        }
+    }
+}
+
+
+.todo__icon:hover {
+    svg {
+        path {
+            fill: #921e68;
+        }
+    }
+
+}

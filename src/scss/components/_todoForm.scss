@@ -1,0 +1,80 @@
+.todo-form {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+
+    &__input {
+        outline: none;
+        background: none;
+        border: 1px solid #8758ff;
+        padding: 0.5rem 1rem;
+        border-radius: 15px 0px 0px 15px;
+        width: 300px;
+        color: #fff;
+    }
+
+    &__button {
+        width: 100px;
+        height: 40px;
+        border-radius: 0px 15px 15px 0px;
+        padding: 10px 12px;
+        border: 1px solid #8758ff;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        /* отображаем курсор в виде руки при наведении; некоторые
+        считают, что необходимо оставлять стрелочный вид для кнопок */
+        cursor: pointer;
+
+        &:hover {
+            background: #8758ff;
+        }
+    }
+}
+
+.todo-form-edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 8px;
+    border-radius: 10px;
+    height: 50px;
+    background: linear-gradient(to right bottom, #921e68, rgb(26, 41, 116, 1));
+
+    &__input {
+        outline: none;
+        background: none;
+        border: 1px solid #8758ff;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        width: 300px;
+        color: #fff;
+    }
+
+    &__button {
+        width: 100px;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px 12px;
+        border: 1px solid #8758ff;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        /* отображаем курсор в виде руки при наведении; некоторые
+        считают, что необходимо оставлять стрелочный вид для кнопок */
+        cursor: pointer;
+
+        &:hover {
+            background: #8758ff;
+        }
+    }
+
+} 
+
+
+
+
+
